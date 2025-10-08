@@ -1,0 +1,74 @@
+body {
+   background-color: #FFBE98;
+   color: rgb(0, 0, 0);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.one {
+    border: 2px solid;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(0, 255, 238);
+}
+.one a:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+.card {
+    width: 350px;
+    height: 700;
+    padding-top: 10px;
+    padding-right: 15px;  
+    padding-left: 15px;
+    border: 10px solid rgb(238, 255, 0);
+    text-align: center;
+    margin:auto;
+    background-color: rgb(5, 163, 255);
+    color: rgb(0, 0, 0);
+    transition: all ease-in-out;
+}
+.card h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card h4 {
+    font-family: times 'Times New Roman', Times, serif;
+}
+.card p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+.card b {
+    color: rgb(0, 0, 0);
+}
+.two b {
+    font-style: italic;
+    color: rgb(255, 0, 85);
+    text-decoration: underline;
+}
+.two ul {
+    color: rgb(70, 1, 91);
+}
+.two a  {
+    text-decoration:solid;
+    color: rgb(70, 1, 91);
+}
+.two img {
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all ease-in-out;
+    border: 2px double rgb(2, 40, 255);
+}
+.two img:hover{
+    width: 25%;
+}
+.four img:hover{
+    width: 25%;
+}
+.five {
+    color: rgb(0, 4, 255);
+}
+
+div.one{
+    font-family: 'Courier New', Courier, monospace;
+}
